@@ -7,42 +7,62 @@
   <link rel="stylesheet" href="my.css">
 </head>
 <body>
-  <header>
-    <h1>Shaik Mehathaj</h1>
-    <p>Student · Front-end developer · AI enthusiast</p>
-    <hr>
-  </header>
+<header class="site-header">
+<div class="container header-inner">
+<a href="#home" class="logo">Your<span>Portfolio</span></a>
+<nav class="nav">
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#skills">Skills</a>
+<a href="#contact" class="cta">Contact</a>
+</nav>
+<button class="nav-toggle" aria-hidden="true">☰</button>
+</div>
+</header>
 
-  <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>I am a final-year engineering student passionate about front-end development, motion graphics, and AI-assisted tools.</p>
-    </section>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <article>
-        <h3>Best Vacations — Front-end</h3>
-        <p>A responsive travel gallery showcasing tourist destinations across India. Built with HTML, CSS and JavaScript.</p>
-        <p>Links: <a href="#">Live demo (placeholder)</a> | <a href="#">Source (placeholder)</a></p>
-      </article>
-    </section> 
+<main>
+<section id="home" class="hero">
+<div class="container hero-grid">
+<div class="hero-content">
+<p class="eyebrow">Hi, I'm</p>
+<h1 class="name">Your Name <span class="accent">— Designer & Developer</span></h1>
+<p class="lead">I build delightful, accessible, and responsive web experiences using HTML and CSS. I love micro-interactions, clean code and thoughtful animations.</p>
+<div class="hero-actions">
+<a href="#projects" class="btn-primary">See my work</a>
+<a href="#contact" class="btn-ghost">Hire me</a>
+</div>
+</div>
 
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML5 &amp; CSS3</li>
-        <li>JavaScript (basic)</li>
-        <li>React (learning)</li>
-        <li>Motion Graphics (After Effects, Animaker)</li>
-        <li>AI tools for content &amp; image generation</li>
-      </ul>
-    </section>
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Location: Yellayapalem, V Kodavaluru M, Nellore, Andhra Pradesh</p>
-      <p>Email: <a href="mailto:shaikmehathaj7525@gmail.com">shaikmehathaj7525@gmail.com</a></p>
-    </section>
-  </main>
-</body>
+
+<div class="hero-card" aria-hidden="true">
+<div class="card-inner">
+<div class="avatar" role="img" aria-label="Avatar placeholder">YN</div>
+<div class="card-info">
+<h3>Featured Project</h3>
+<p>Responsive portfolio concept with elegant CSS-only interactions.</p>
+<span class="tag">HTML</span>
+<span class="tag">CSS</span>
+</div>
+</div>
+</div>
+</div>
+<svg class="hero-shape" viewBox="0 0 1200 120" preserveAspectRatio="none"><path d="M0 0 C 300 100 900 0 1200 80 L1200 120 L0 120 Z"></path></svg>
+</section>
+
+
+<section id="about" class="section about">
+<div class="container grid two-col">
+<div>
+<h2>About me</h2>
+<p>I’m a front-end focused developer who crafts accessible, performance-minded interfaces. I enjoy translating ideas into pixel-perfect designs and writing maintainable CSS with thoughtful responsiveness.</p>
+<ul class="about-list">
+<li><strong>Location:</strong> City, Country</li>
+<li><strong>Role:</strong> Open to collaborate / Freelance</li>
+<li><strong>Email:</strong> hello@example.com</li>
+</ul>
+</div>
+<div class="card-stats">
+<div class="stat">
+<h3>8+</h3>
 </html>
